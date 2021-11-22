@@ -1,6 +1,6 @@
 FROM openjdk:8
 WORKDIR /app
-ADD ./app
+ADD . /app
 RUN pip install -r requirements.txt
 EXPOSE 8080
 ENV>NAME world
