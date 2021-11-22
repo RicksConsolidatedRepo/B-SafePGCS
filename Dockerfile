@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8
 EXPOSE 8080
-ADD target/B-SafePGCS.jar B-SafePGCS.jar
-ENTRYPOINT ["java","-jar","/B-SafePGCS.jar"]
+ADD target/b-safepgcs.jar b-safepgcs.jar
+ENTRYPOINT ["java","-jar","/b-safepgcs.jar"]
